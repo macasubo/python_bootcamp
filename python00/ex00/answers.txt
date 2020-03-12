@@ -1,0 +1,5 @@
+pip list | cut -f 1 -d ' ' | sed '1,2d'
+pip list
+pip show numpy
+pip search tesseract
+pip freeze > requirements.txt
